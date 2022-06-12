@@ -1,26 +1,26 @@
-# Palette Extender
+# Color Palette Extender
 
 # Table of Contents
 
-1.  [Rationale](#org2d0ad07)
-2.  [Source](#org87946d5)
-3.  [Usage](#org442a880)
-    1.  [Note](#org4d9ec08)
-4.  [Examples](#orga5a4ab1)
-    1.  [Plotting](#org8f4bfa2)
-        1.  [Original Palette Line](#org9560395)
-        2.  [Extended Palette Line](#org03bfcc3)
-        3.  [Comparison Palettes](#org1a714ef)
-        4.  [Original Palette Joint](#org009a78f)
-        5.  [Extended Palette Joint](#org6bc5492)
-        6.  [Original Palette Scatter](#org82ac0da)
-        7.  [Extended Palette Scatter](#org1a64b80)
-    2.  [Console](#orgc310b14)
-5.  [Requirements](#org446235b)
+1.  [Rationale](#org51511fd)
+2.  [Source](#orgaafc768)
+3.  [Usage](#org0d08d70)
+    1.  [Note](#orgfc4b528)
+4.  [Examples](#org7a6ca94)
+    1.  [Plotting](#orgf02b6a8)
+        1.  [Original Palette Line](#orgaf84ce4)
+        2.  [Extended Palette Line](#org8cd3d43)
+        3.  [Comparison Palettes](#orgd7594ab)
+        4.  [Original Palette Joint](#org28941d8)
+        5.  [Extended Palette Joint](#org9aa0ddf)
+        6.  [Original Palette Scatter](#org8d2bf89)
+        7.  [Extended Palette Scatter](#org16483b1)
+    2.  [Console](#org70bd9fd)
+5.  [Requirements](#orgbcd827e)
 
 
 
-<a id="org2d0ad07"></a>
+<a id="org51511fd"></a>
 
 # Rationale
 
@@ -29,7 +29,7 @@ Have you ever had a great color palette, but it didn't contain enough values to 
 This tool takes a color palette, and returns a set of new candidate colors that fit well
 
 
-<a id="org87946d5"></a>
+<a id="orgaafc768"></a>
 
 # Source
 
@@ -40,12 +40,12 @@ This wonderful blog post:
 This repository takes his [code](https://github.com/ilikescience/category-colors) (written in javascript) and implements it in python.
 
 
-<a id="org442a880"></a>
+<a id="org0d08d70"></a>
 
 # Usage
 
 1.  Go to the directory
-2.  Check that the [5](#org446235b) are installed
+2.  Check that the Requirements: [5](#orgbcd827e) are installed
 3.  Add your colors to the \`run.py\` file
 4.  Run it!
 
@@ -54,82 +54,82 @@ This repository takes his [code](https://github.com/ilikescience/category-colors
 This will also show some example plots
 
 
-<a id="org4d9ec08"></a>
+<a id="orgfc4b528"></a>
 
 ## Note
 
 This is a probabilistic algorithm. If you don't get results you like, just run it again until you do!
 
 
-<a id="orga5a4ab1"></a>
+<a id="org7a6ca94"></a>
 
 # Examples
 
 You can run the \`plotting.py\` or \`console.py\` files to see different outputs:
 
 
-<a id="org8f4bfa2"></a>
+<a id="orgf02b6a8"></a>
 
 ## Plotting
 
 
-<a id="org9560395"></a>
+<a id="orgaf84ce4"></a>
 
 ### Original Palette Line
 
 ![img](./Examples/original_line.png)
 
 
-<a id="org03bfcc3"></a>
+<a id="org8cd3d43"></a>
 
 ### Extended Palette Line
 
 ![img](./Examples/extended_line.png)
 
 
-<a id="org1a714ef"></a>
+<a id="orgd7594ab"></a>
 
 ### Comparison Palettes
 
 ![img](./Examples/comparison_palette.png)
 
 
-<a id="org009a78f"></a>
+<a id="org28941d8"></a>
 
 ### Original Palette Joint
 
 ![img](./Examples/join_original.png)
 
 
-<a id="org6bc5492"></a>
+<a id="org9aa0ddf"></a>
 
 ### Extended Palette Joint
 
 ![img](./Examples/join_extended.png)
 
 
-<a id="org82ac0da"></a>
+<a id="org8d2bf89"></a>
 
 ### Original Palette Scatter
 
 ![img](./Examples/scatter_original.png)
 
 
-<a id="org1a64b80"></a>
+<a id="org16483b1"></a>
 
 ### Extended Palette Scatter
 
 ![img](./Examples/scatter_extended.png)
 
 
-<a id="orgc310b14"></a>
+<a id="org70bd9fd"></a>
 
 ## Console
 
 ![img](Examples/2022-06-12_17-17-49_screenshot.png)
 
 
-<a id="org446235b"></a>
+<a id="orgbcd827e"></a>
 
 # Requirements
 
